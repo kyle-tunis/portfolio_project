@@ -1,6 +1,6 @@
 // Lits of housing options, career choices, and income to be chosen at random.
 
-const housing = ['Mansion', 'Detached Home', 'Homeless', 'Overpriced House', 'Shitty Motel', 'In the Moment', 'Complete and utter dispair', 'Studio Apartment', 'Townhouse', 'Sewer'];
+const housing = ['Mansion', 'Detached Home', 'Homeless', 'In a Overpriced House', 'In a Shitty Motel', 'In the Moment', 'Complete and utter dispair', 'In a Studio Apartment', 'Townhouse', 'Sewer'];
 
 const career = ['Astronaut', 'Barista', 'Professional Athlete', 'Stock Trader', 'Software Developer', 'Doctor', 'Unemployed', 'Caddie', 'Mascot', 'Rail Guy'];
 
@@ -66,8 +66,8 @@ const mash = name => {
     if (house === 'Mansion' || house === 'Detached Home' || house === 'Townhouse') {
         console.log(`Congratulations, you are the proud owner of a ${house}!`);
 
-    } else if (house === 'Overpriced House' || house === 'In the Moment' || house === 'Studio Apartment' || house === 'Shitty Motel') {
-        console.log(`Accomodations: ${house}.`);
+    } else if (house === 'In a Overpriced House' || house === 'In the Moment' || house === 'In a Studio Apartment' || house === 'In a Shitty Motel') {
+        console.log(`You will be living ${house}.`);
 
     } else {
         console.log(`Unfortunately you will be living in ${house}. Sorry bout your luck bra.`);
